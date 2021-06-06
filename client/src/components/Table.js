@@ -10,7 +10,7 @@ const Table = (props) => {
         <tr key={index}>
           <th scope="row">{index + 1}</th>
           <td>
-            <a href={link} className="url">
+            <a style={{fontSize:".9rem"}} href={link} className="url">
               {link}
             </a>
           </td>
